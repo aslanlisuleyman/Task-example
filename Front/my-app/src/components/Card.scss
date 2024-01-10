@@ -1,0 +1,73 @@
+.btn41-43 {
+    padding: 10px 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    margin-left: 35px;
+    
+  }
+  
+  .btn-41 {
+    border: 2px solid rgb(15, 2, 186);
+    z-index: 1;
+    color: rgb(88, 88, 88);
+  }
+  
+  .btn-41:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    background: rgb(15, 2, 186);
+    transition: all 0.3s ease;
+  }
+  
+  .btn-41:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  .btn-41:hover:after {
+    left: auto;
+    left: 0;
+    width: 100%;
+  }
+  
+  .btn-41:active {
+    top: 2px;
+  }
+
+  .img img{
+    width: 250px;
+    height: 200px;
+  }
+  .card{
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    // border: 1px solid black;
+    height: 380px;
+    padding-top: 35px;
+  }
+ 
+
+  
+
+  
+  .butt{
+    display: flex;
+    gap: 5px;
+  }
